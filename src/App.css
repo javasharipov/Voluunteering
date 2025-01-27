@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#header .active {
+    color: #0B0706;
+}
