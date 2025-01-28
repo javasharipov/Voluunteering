@@ -1,5 +1,8 @@
-@import "tailwindcss";
-
+@import 'tailwindcss';
 #header .active {
-    color: #0B0706;
+	color: #0b0706;
+}
+.desc {
+	border-left: 1px solid #e5e5e5;
+	padding-left: 24px;
 }

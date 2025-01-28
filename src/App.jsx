@@ -6,24 +6,24 @@ import Media from './pages/media/Media'
 import Contact from './pages/contact/Contact'
 import Header from './components/header/Header'
 import NotFound from './pages/not-found/NotFound'
-
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer/Footer'
 
 function App() {
-
-  return (
-    <>
-    <Header />
-      <Routes>
-        <Route path='/' element={<Home />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/whatwedo' element={<WhatWeDo />}/>
-        <Route path='/media' element={<Media />}/>
-        <Route path='/contact' element={<Contact />}/>
-        <Route path='*' element={<NotFound />}/>
-      </Routes>
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<Routes>
+				<Route path='/' element={<Home />} />
+				<Route path='/about' element={<About />} />
+				<Route path='/whatwedo' element={<WhatWeDo />} />
+				<Route path='/media' element={<Media />} />
+				<Route path='/contact' element={<Contact />} />
+				<Route path='*' element={<NotFound />} />
+			</Routes>
+			<Footer />
+		</>
+	)
 }
 
 export default App
