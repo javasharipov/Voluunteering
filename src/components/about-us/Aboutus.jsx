@@ -10,6 +10,7 @@ import groupImage from '../../assets/group.png'
 import Cta from '../Cta/Cta'
 import News from '../News/News'
 import Events from '../Events/Events'
+import Team from '../Team/Team'
 
 const Aboutus = () => {
 	return (
@@ -125,6 +126,7 @@ const Aboutus = () => {
 						<img src={groupImage} alt='' />
 					</div>
 				</div>
+				<Team />
 				<Cta />
 				<News />
 				<Events />
