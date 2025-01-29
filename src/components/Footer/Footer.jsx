@@ -4,7 +4,7 @@ import logo from '../../assets/footerlogo.svg'
 const Footer = () => {
 	return (
 		<section className='bg-black text-white py-10'>
-			<div className='container mx-auto max-w-[1280px] px-4 grid md:grid-cols-4 gap-8'>
+			<div className='container mx-auto max-w-[1280px] px-4 grid md:grid-cols-5 gap-8'>
 				<div>
 					<img src={logo} alt='Logo' />
 				</div>
@@ -86,26 +86,25 @@ const Footer = () => {
 						</li>
 					</ul>
 				</div>
-			</div>
-
-			<div className='mt-10'>
-				<div className='container mx-auto px-4 text-center'>
-					<h3 className='text-xl font-semibold mb-6'>
-						Subscribe to get latest updates
-					</h3>
-					<form className='flex flex-wrap justify-center items-center gap-4'>
-						<input
-							type='email'
-							placeholder='Your email'
-							className='flex-1 px-4 py-3 bg-gray-800 text-white rounded-md focus:outline-none focus:ring focus:ring-gray-600 max-w-[300px]'
-						/>
-						<button
-							type='submit'
-							className='px-6 py-3 bg-white text-black font-semibold rounded-md hover:bg-gray-200 transition'
-						>
-							Subscribe
-						</button>
-					</form>
+				<div className='mt-10'>
+					<div className='container mx-auto px-4 text-center'>
+						<h3 className='text-xl font-semibold mb-6'>
+							Subscribe to get latest updates
+						</h3>
+						<form className='flex flex-wrap justify-center items-center gap-4'>
+							<input
+								type='email'
+								placeholder='Your email'
+								className='flex-1 px-4 py-3 bg-gray-800 text-white rounded-md focus:outline-none focus:ring focus:ring-gray-600 max-w-[300px]'
+							/>
+							<button
+								type='submit'
+								className='px-6 py-3 bg-white text-black font-semibold rounded-md hover:bg-gray-200 transition'
+							>
+								Subscribe
+							</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</section>
